@@ -1,0 +1,132 @@
+object Form1: TForm1
+  Left = 215
+  Top = 220
+  Width = 869
+  Height = 640
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 352
+    Top = 232
+    Width = 477
+    Height = 13
+    Caption = 
+      #1042#1074#1077#1076#1080#1090#1077' '#1074' '#1087#1086#1083#1077' Edit2 '#1080#1084#1103' '#1089#1086#1079#1076#1072#1074#1072#1077#1084#1086#1075#1086' '#1092#1072#1081#1083#1072' '#1080' '#1074#1099#1073#1077#1088#1080#1090#1077' '#1077#1075#1086' '#1088#1072#1089#1087#1086 +
+      #1083#1086#1078#1077#1085#1080#1077' '#1074' '#1076#1080#1088#1088#1077#1082#1090#1086#1088#1080#1080' '
+  end
+  object Label3: TLabel
+    Left = 448
+    Top = 456
+    Width = 323
+    Height = 13
+    Caption = #1042' '#1087#1086#1083#1077'  Edit3 '#1074#1074#1077#1076#1080#1090#1077' '#1087#1091#1090#1100' '#1082#1072#1090#1072#1083#1086#1075#1072', '#1082#1086#1090#1086#1088#1099#1081'  '#1078#1077#1083#1072#1077#1090#1077' '#1091#1076#1072#1083#1080#1090#1100
+  end
+  object Label1: TLabel
+    Left = 552
+    Top = 80
+    Width = 251
+    Height = 13
+    Caption = #1042#1074#1077#1076#1080#1090#1077' '#1074' '#1087#1086#1083#1077' Edit1 '#1087#1091#1090#1100' '#1076#1083#1103' '#1089#1086#1079#1076#1072#1085#1080#1103' '#1082#1072#1090#1072#1083#1086#1075#1072
+  end
+  object FileListBox1: TFileListBox
+    Left = 24
+    Top = 16
+    Width = 145
+    Height = 97
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object DirectoryListBox1: TDirectoryListBox
+    Left = 184
+    Top = 24
+    Width = 145
+    Height = 97
+    FileList = FileListBox1
+    ItemHeight = 16
+    TabOrder = 1
+  end
+  object DriveComboBox1: TDriveComboBox
+    Left = 16
+    Top = 160
+    Width = 145
+    Height = 19
+    DirList = DirectoryListBox1
+    TabOrder = 2
+  end
+  object FilterComboBox1: TFilterComboBox
+    Left = 16
+    Top = 208
+    Width = 145
+    Height = 21
+    FileList = FileListBox1
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Left = 408
+    Top = 24
+    Width = 185
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 608
+    Top = 176
+    Width = 193
+    Height = 21
+    TabOrder = 5
+    Text = 'Edit2'
+  end
+  object Button2: TButton
+    Left = 440
+    Top = 168
+    Width = 153
+    Height = 41
+    Caption = #1057#1086#1079#1076#1072#1090#1100' '#1092#1072#1081#1083
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 424
+    Top = 328
+    Width = 169
+    Height = 41
+    Caption = #1057#1086#1079#1076#1072#1085#1080#1077' '#1082#1086#1087#1080#1080' '#1092#1072#1081#1083#1072
+    TabOrder = 7
+    OnClick = Button3Click
+  end
+  object Edit3: TEdit
+    Left = 640
+    Top = 400
+    Width = 161
+    Height = 21
+    TabOrder = 8
+    Text = 'Edit3'
+  end
+  object Button4: TButton
+    Left = 440
+    Top = 400
+    Width = 153
+    Height = 33
+    Caption = #1059#1076#1072#1083#1077#1085#1080#1077' '#1082#1072#1090#1072#1083#1086#1075#1072
+    TabOrder = 9
+    OnClick = Button4Click
+  end
+  object Button1: TButton
+    Left = 648
+    Top = 24
+    Width = 153
+    Height = 33
+    Caption = #1057#1086#1079#1076#1072#1090#1100' '#1087#1072#1087#1082#1091
+    TabOrder = 10
+    OnClick = Button1Click
+  end
+end
